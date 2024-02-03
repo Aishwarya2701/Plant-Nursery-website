@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nursery Website</title>
+    <style>
+        /* Reset some default styles */
+        body,
+        h1,
+        h2,
+        p,
+        ul,
+        li {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+        }
+
+        /* Navigation styles */
+        nav {
+            background-color: #4CAF50;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+        }
+
+        /* Hero section styles */
+        .hero {
+            text-align: center;
+            padding: 50px;
+            background-color: #8CC84B;
+            color: white;
+        }
+
+        /* About section styles */
+        .about {
+            background-color: #F5F5F5;
+            padding: 20px;
+        }
+
+        /* Products section styles */
+        .products {
+            padding: 20px;
+        }
+
+        .product {
+            margin-bottom: 20px;
+        }
+
+        /* Contact section styles */
+        .contact {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+        }
+
+        /* Footer styles */
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h1>Welcome to Our Nursery</h1>
+        <p>Explore a wide variety of plants and gardening products.</p>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>We are passionate about providing high-quality plants and gardening items. Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit.</p>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <h2>Our Products</h2>
+
+        <div class="product">
+            <img src="./images/plant1.jpg" alt="Plant 1">
+            <h3>Beautiful Flower</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+
+        <div class="product">
+            <img src="./images/plant 2.jpg" alt="Plant 2">
+            <h3>Beautiful Flower</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+
+        <div class="product">
+            <img src="./images/plant 3.jpg" alt="Plant 3">
+            <h3>Beautiful Flower</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+
+        <div class="product">
+            <img src="./images/plant 4.jpg" alt="Plant 4">
+            <h3>Beautiful Flower</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+
+        <div class="product">
+            <img src="./images/plant 5.jpg" alt="Plant 5">
+            <h3>Beautiful Flower</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+
+        <div class="product">
+            <img src="./images/plant 6.jpg" alt="Plant 6">
+            <h3>Beautiful Flower</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Nursery Website</p>
+    </footer>
+
+</body>
+
+</html>
